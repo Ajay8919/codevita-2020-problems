@@ -107,17 +107,8 @@ while(len(l1)!=0) :
     l1=l
     c+=1
 
-for i in range(0,m):
-    for j in range(0,n):
-        if forest[i][j]=='w' :
-            forest[i][j]=-1
 
-Max=0
-for i in forest :
-    #print(i)
-    if max(i)>Max :
-        Max=max(i)
-print(Max+1)
+print(c)
 
         
     
