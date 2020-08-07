@@ -86,10 +86,10 @@ def changeL(x,y,m,n):
 
 
 
-x=0
-y=5
-m=6
-n=6
+x=0 #xy are start fire cordinates
+y=5 
+m=6 #row length
+n=6 #column length
 l1=[]
 l=[]
 c=1
@@ -107,8 +107,8 @@ while(len(l1)!=0) :
     l1=l
     c+=1
 
-for i in range(0,6):
-    for j in range(0,6):
+for i in range(0,m):
+    for j in range(0,n):
         if forest[i][j]=='w' :
             forest[i][j]=-1
 
